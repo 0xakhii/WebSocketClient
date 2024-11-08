@@ -18,9 +18,9 @@ This project is a WebSocket client application developed in C++ to handle secure
 
 - OpenSSL (for WSS support)
 
-### Setup
+## Setup
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/0xakhii/WebSocketClient
