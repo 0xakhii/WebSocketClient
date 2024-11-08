@@ -20,26 +20,25 @@ This project is a WebSocket client application developed in C++ to handle secure
 
 ## Setup
 
-### Clone the repository
+# Clone the repository
 
 ```bash
 git clone https://github.com/0xakhii/WebSocketClient
 cd WebSocketClient
 ```
-### Build the application
-## 1-Install dependencies: 
-# Ensure that you have Boost, g++, and OpenSSL installed (if using WSS).
+## Build the application
+### 1-Install dependencies: Ensure that you have Boost, g++, and OpenSSL installed (if using WSS).
 ```bash
 sudo apt update -y && sudo apt install libboost-all-dev \
  && sudo apt install build-essential && sudo apt install openssl
 ```
-## 2-Generate excutable file:
-# By running the follwing command in your Terminal
+### 2-Generate excutable file:
+ By running the follwing command in your Terminal
 ``` bash
 g++ -std=c++17 -o WebSocketClient main.cpp WebSocketClient.cpp -lboost_system -lboost_thread -lssl -lcrypto -pthread
 ```
-## 3-Run the application
-# To run the WebSocket client application, use the following command in your terminal:
+### 3-Run the application
+ To run the WebSocket client application, use the following command in your terminal:
 ```bash
 ./WebSocketClient -u wss://echo.websocket.org
 ```
